@@ -1,0 +1,13 @@
+/* Resetando as propriedades por padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:  border-box;
+}
+
+body, input, button {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  background: #121211;
+  --webkit-font-smoothing: antialiased;
+}
